@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horário Agro UFG</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <h2>HORÁRIO AGRONOMIA</h2>
+
+        <table class="principal">
+            <tr>
+                <th></th>
+                <th>Segunda</th>
+                <th>Terça</th>
+                <th>Quarta</th>
+                <th>Quinta</th>
+                <th>Sexta</th>
+            </tr>
+            <tr>
+                <th>08:00 - 09:40</th>
+                <td><div id="1">---</div></td>  
+                <td><div id="2">---</div></td> 
+                <td><div id="3">---</div></td> 
+                <td><div id="4">---</div></td> 
+                <td><div id="5">---</div></td> 
+            </tr>
+            <tr>
+                <th>10:00 - 11:40</th>
+                <td><div id="6">---</div></td>
+                <td><div id="7">---</div></td>
+                <td><div id="8">---</div></td>
+                <td><div id="9">---</div></td>
+                <td><div id="10">---</div></td>
+            </tr>
+            <tr>
+                <th>12:00 - 13:40</th>
+                <td><div id="11">---</div></td>
+                <td><div id="12">---</div></td>
+                <td><div id="13">---</div></td>
+                <td><div id="14">---</div></td>
+                <td><div id="15">---</div></td>
+            </tr>
+            <tr>
+                <th>14:00 - 15:40</th>
+                <td><div id="16">---</div></td>
+                <td><div id="17">---</div></td>
+                <td><div id="18">---</div></td>
+                <td><div id="19">---</div></td>
+                <td><div id="20">---</div></td>
+            </tr>
+            <tr>
+                <th>16:00 - 17:40</th>
+                <td><div id="21">---</div></td>
+                <td><div id="22">---</div></td>
+                <td><div id="23">---</div></td>
+                <td><div id="24">---</div></td>
+                <td><div id="25">---</div></td>
+            </tr>
+        </table>
+            <H3>5° PERÍODO</H3>
+            <h6>Turma A</h6>
+            <tr>
+                <td><button onclick="setInfo(1)" id="bta-1">Climatologia Agrícola <br>6M456<br></button></td>
+                <td><button onclick="setInfo(2)" id="bta-2">Melhoramento de Plantas <br>24M45<br></button></td>
+                <td><button onclick="setInfo(3)" id="bta-3">Melhoramento Animal <br>5T23<br></button></td>
+                <td><button onclick="setInfo(4)" id="bta-4">Princípios de Entomologia <br>4M23 4T23<br></button></td>
+                <td><button onclick="setInfo(5)" id="bta-5">Horticultura Geral <br> 2M23 5T45<br></button></td>
+                <td><button onclick="setInfo(6)" id="bta-6">Forragicultura <br>2T23 5M23<br></button></td>
+                <td><button onclick="setInfo(7)" id="bta-7">Fitopatologia I <br>3M45 3T23<br></button></td>
+                <td><button onclick="setInfo(8)" id="bta-8">Fertilidade do Solo <br>2T23 5M23<br></button></td>
+            </tr>
+            <h6>Turma B</h6>
+            <tr>
+                <td><button onclick="setInfo(9)" id="btb-1">Climatologia Agrícola <br>6M456<br></button></td>
+                <td><button onclick="setInfo(10)" id="btb-2">Melhoramento de Plantas <br>24M45<br></button></td>
+                <td><button onclick="setInfo(11)" id="btb-3">Melhoramento Animal <br>5T23<br></button></td>
+                <td><button onclick="setInfo(12)" id="btb-4">Princípios de Entomologia <br>4M23 4T23<br></button></td>
+                <td><button onclick="setInfo(13)" id="btb-5">Horticultura Geral <br> 2M23 5T45<br></button></td>
+                <td><button onclick="setInfo(14)" id="btb-6">Forragicultura <br>2T23 5M23<br></button></td>
+                <td><button onclick="setInfo(15)" id="btb-7">Fitopatologia I <br>3M45 3T23<br></button></td>
+                <td><button onclick="setInfo(16)" id="btb-8">Fertilidade do Solo <br>2T23 5M23<br></button></td>
+            </tr>
+
+            <H3>6° PERÍODO</H3>
+            <h6>Turma A</h6>
+            <tr> 
+                <td><button onclick="setInfo(17)" id="bta-9">Avicultura <br>2T23 5M23<br></button></td>
+                <td><button onclick="setInfo(18)" id="bta-10">Plantas Daninhas <br>2T23 5M23<br></button></td>
+                <td><button onclick="setInfo(19)" id="bta-11">Suinocultura <br> 2M23 5T45<br></button></td>
+                <td><button onclick="setInfo(20)" id="bta-12">Manejo de Solo <br>24M45<br></button></td>
+                <td><button onclick="setInfo(21)" id="bta-13">Produção e Tecnologia de Sementes <br>4M23 4T23<br></button></td>
+                <td><button onclick="setInfo(22)" id="bta-14">Fitopatologia II<br>5T23<br></button></td>
+                 <td><button onclick="setInfo(23)" id="bta-15">Manejo Integrado de Pragas <br>6M456<br></button></td>
+            </tr>
+            <h6>Turma B</h6>
+            <tr>
+                <td><button onclick="setInfo(24)" id="btb-9">Avicultura <br>2T23 5M23<br></button></td>
+                <td><button onclick="setInfo(25)" id="btb-10">Plantas Daninhas <br>2T23 5M23<br></button></td>
+                <td><button onclick="setInfo(26)" id="btb-11">Suinocultura <br> 2M23 5T45<br></button></td>
+                <td><button onclick="setInfo(27)" id="btb-12">Manejo de Solo <br>24M45<br></button></td>
+                <td><button onclick="setInfo(28)" id="btb-13">Produção e Tecnologia de Sementes <br>4M23 4T23<br></button></td>
+                <td><button onclick="setInfo(29)" id="btb-14">Manejo Integrado de Pragas <br>6M456<br></button></td>
+                <td><button onclick="setInfo(30)" id="btb-15">Fitopatologia II<br>5T23<br></button></td>
+            </tr>
+           
+            <H3>7° PERÍODO</H3>
+            <h6>Turma A</h6>
+            <tr>
+                <td><button onclick="setInfo(31)" id="bta-16">Manejo de Solo <br>24M45<br></button></td>
+                <td><button onclick="setInfo(31)" id="bta-17">Bovinocultura de Leite <br>6M456<br></button></td>
+                <td><button onclick="setInfo(31)" id="bta-18">Bovinocultura de Corte <br>24M45<br></button></td>
+                <td><button onclick="setInfo(31)" id="bta-19">Construções e Eletrificação Rural <br>2T23 5M23<br></button></td>
+                <td><button onclick="setInfo(31)" id="bta-20">Hidráulica Aplicada <br>2T23 5M23<br></button></td>
+                <td><button onclick="setInfo(31)" id="bta-21">Agricultura I<br> 2M23 5T45<br></button></td>
+                <td><button onclick="setInfo(31)" id="bta-22">Economia Rural <br>5T23<br></button></td>
+                <td><button onclick="setInfo(31)" id="bta-23">Física e Conservação do Solo <br>4M23 4T23<br></button></td>
+                <td><button onclick="setInfo(31)" id="bta-24">Pré-Estágio <br>3M45 3T23<br></button></td>
+            </tr>
+            <h6>Turma B</h6>
+            <tr>
+                <td><button onclick="setInfo(31)" id="btb-16">Bovinocultura de Leite <br>6M456<br></button></td>
+                <td><button onclick="setInfo(31)" id="btb-17">Bovinocultura de Corte <br>24M45<br></button></td>
+                <td><button onclick="setInfo(31)" id="btb-18">Construções e Eletrificação Rural <br>2T23 5M23<br></button></td>
+                <td><button onclick="setInfo(31)" id="btb-19">Hidráulica Aplicada <br>2T23 5M23<br></button></td>
+                <td><button onclick="setInfo(31)" id="btb-20">Agricultura I<br> 2M23 5T45<br></button></td>
+                <td><button onclick="setInfo(31)" id="btb-21">Economia Rural <br>5T23<br></button></td>
+                <td><button onclick="setInfo(31)" id="btb-22">Física e Conservação do Solo <br>4M23 4T23<br></button></td>
+                <td><button onclick="setInfo(31)" id="btb-23">Pré-Estágio <br>3M45 3T23<br></button></td>
+            </tr>
+
+            <H3>8° PERÍODO</H3>
+            <h6>Turma A</h6>
+            <tr>
+                <td><button class="matriz-boton" id="botao-1">Produção de Hortaliças <br>6M456<br></button></td>
+                <td><button class="matriz-boton" id="botao-5">Políticas Desenvolvimento Rural <br> 2M23 5T45<br></button></td>
+                <td><button class="matriz-boton" id="botao-7">Administração Rural <br>4M23 4T23<br></button></td>
+                <td><button class="matriz-boton" id="botao-2">Irrigação e Drenagem <br>24M45<br></button></td>
+                <td><button class="matriz-boton" id="botao-6">Ecologia e Meio Ambiente <br>5T23<br></button></td>
+                <td><button class="matriz-boton" id="botao-4">Fruticultura <br>2T23 5M23<br></button></td>
+                <td><button class="matriz-boton" id="botao-3">Agricultura II <br>2T23 5M23<br></button></td>
+            </tr>
+            <h6>Turma B</h6>
+            <tr>
+                <td><button class="matriz-boton" id="botao-1">Produção de Hortaliças <br>6M456<br></button></td>
+                <td><button class="matriz-boton" id="botao-5">Políticas Desenvolvimento Rural <br> 2M23 5T45<br></button></td>
+                <td><button class="matriz-boton" id="botao-7">Administração Rural <br>4M23 4T23<br></button></td>
+                <td><button class="matriz-boton" id="botao-2">Irrigação e Drenagem <br>24M45<br></button></td>
+                <td><button class="matriz-boton" id="botao-6">Ecologia e Meio Ambiente <br>5T23<br></button></td>
+                <td><button class="matriz-boton" id="botao-4">Fruticultura <br>2T23 5M23<br></button></td>
+                <td><button class="matriz-boton" id="botao-3">Agricultura II <br>2T23 5M23<br></button></td>
+            </tr>
+
+            <H3>9° PERÍODO</H3>
+            <h6>Turma A</h6>
+            <tr>
+                <td><button class="matriz-boton" id="botao-1">Paisagismo e Floricultura <br>6M456<br></button></td>
+                <td><button class="matriz-boton" id="botao-2">Agricultura III <br>24M45<br></button></td>
+                <td><button class="matriz-boton" id="botao-3">Agroecologia <br>2T23 5M23<br></button></td>
+                <td><button class="matriz-boton" id="botao-4">TCC I <br>2T23 5M23<br></button></td>
+                <td><button class="matriz-boton" id="botao-7">Legislação e ex. profissionais <br>4M23 4T23<br></button></td>
+                <td><button class="matriz-boton" id="botao-6">Processamento Alimentos <br>5T23<br></button></td>
+                <td><button class="matriz-boton" id="botao-5">Silvicultura <br> 2M23 5T45<br></button></td>
+            </tr>
+            <h6>Turma B</h6>
+            <tr>
+                <td><button class="matriz-boton" id="botao-1">Paisagismo e Floricultura <br>6M456<br></button></td>
+                <td><button class="matriz-boton" id="botao-2">Agricultura III <br>24M45<br></button></td>
+                <td><button class="matriz-boton" id="botao-3">Agroecologia <br>2T23 5M23<br></button></td>
+                <td><button class="matriz-boton" id="botao-4">TCC I <br>2T23 5M23<br></button></td>
+                <td><button class="matriz-boton" id="botao-7">Legislação e ex. profissionais <br>4M23 4T23<br></button></td>
+                <td><button class="matriz-boton" id="botao-6">Processamento Alimentos <br>5T23<br></button></td>
+                <td><button class="matriz-boton" id="botao-5">Silvicultura <br> 2M23 5T45<br></button></td>
+            </tr>
+
+            <H3>10° PERÍODO</H3>
+        <h6>Turma A</h6>
+            <tr>
+                <td><button class="matriz-boton" id="botao-1">TCC II <br>5T23<br></button></td>
+                <td><button class="matriz-boton" id="botao-1">Estágio Curricular <br>7T12345<br></button></td>
+            </tr>
+        <h6>Turma B</h6>
+            <tr>
+                <td><button class="matriz-boton" id="botao-5">TCC II <br>6M23<br></button></td>
+                <td><button class="matriz-boton" id="botao-6">Estágio Curricular <br>7T12345<br></button></td>
+            </tr>   
+    </main>
+   <script src="code.js"></script>
+</body>
+</html>
