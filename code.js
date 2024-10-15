@@ -8,7 +8,7 @@
     document.getElementById("bta-2").addEventListener("click", function () 
     {
         var um = document.getElementById("6");
-        var dois = document.getElementById("8");
+        var dois = document.getElementById("15");
         um.innerText = "Melhoramento de Plantas";
         dois.innerText = "Melhoramento de Plantas"; 
     });
